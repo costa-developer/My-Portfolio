@@ -3,6 +3,8 @@ const scroll = new LocomotiveScroll({
   smooth: true,
 });
 
+document.getElementById("current-year").textContent = new Date().getFullYear();
+
 function page3Animation() {
   var pic = document.querySelector("#elem-container");
   var fix = document.querySelector("#fixed-img");

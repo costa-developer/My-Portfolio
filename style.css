@@ -87,6 +87,24 @@ nav {
 nav h3 {
   display: none;
 }
+.social-icons {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 15px;
+
+}
+
+.social-icons i {
+  font-size: 40px; /* Adjust icon size */
+  color: #000035; /* Icon color */
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #ff2f05; /* Highlight color on hover */
+}
+
 
 #center {
   height: 65vh;
